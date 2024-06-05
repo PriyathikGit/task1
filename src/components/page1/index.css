@@ -191,3 +191,16 @@ svg{
         padding: 4px;
     }
 }
+
+@media screen and (max-width:400px) {
+    .btn-row{
+        bottom: -18%;
+        z-index: 99;
+    }
+    .cont{
+        height: 108vh;
+    }
+    .center{
+        text-align: start;
+    }
+}
