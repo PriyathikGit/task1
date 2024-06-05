@@ -1,0 +1,230 @@
+.contt {
+  width: 55%;
+  border-radius: 20px;
+  position: relative;
+  bottom: 90px;
+  position: absolute;
+  z-index: 1;
+  background-color: white;
+  box-shadow: 3px 5px 35px;
+  display: flex;
+  flex-direction: column;
+}
+.topTxt {
+  margin-left: 95px;
+}
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.top-row {
+  display: flex;
+  background-color: #a8bec6;
+  justify-content: space-between;
+}
+
+.item {
+  width: 17rem;
+  height: 41px;
+  border-right: 1px solid black;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+}
+
+.circle {
+  width: 30px;
+  height: 25px;
+  background: white;
+  display: flex;
+  justify-content: center;
+  border-radius: 50%;
+  align-items: center;
+}
+
+.headingg {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 13px 0;
+}
+.txtt {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+h1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.centerr {
+  padding: 20px 0;
+  text-align: center;
+  width: 24rem;
+  margin: 0 auto;
+}
+.cntt {
+  display: flex;
+  justify-content: start;
+  align-items: start;
+  flex-direction: column;
+  gap: 10px;
+  margin: 0 auto;
+}
+.input-row {
+  display: flex;
+  border: 1px solid grey;
+  width: 130%;
+  padding: 0 5px;
+}
+input {
+  width: 14rem;
+  padding: 4px;
+}
+.mx4 {
+  display: flex;
+  gap: 7px;
+  position: relative; /* Ensure the tooltip is positioned relative to the container */
+}
+
+.hover {
+  position: relative;
+  width: 17px;
+  height: 19px;
+  background-color: gray;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  font-size: 13px;
+  cursor: pointer;
+}
+
+.tooltip {
+    display: block;
+    position: absolute;
+    top: 25px;
+    left: 150%;
+    transform: translateX(-50%);
+    background-color: rgba(43, 44, 46, 0.575);
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 12px;
+    white-space: normal;
+    z-index: 100;
+    box-shadow: 0 4px 8px rgba(116, 114, 114, 0.2);
+    width: max-content;
+    max-width: 396px;
+    font-size: 14px
+}
+
+.tooltip span {
+  display: block;
+  margin-bottom: 5px;
+  color: white;
+}
+
+.tooltip span:last-child {
+  margin-bottom: 0;
+}
+
+.my1 {
+  fill: green;
+  position: relative;
+  left: 30px;
+  width: 35px;
+}
+
+.my2 {
+  fill: red;
+}
+
+.roww {
+  display: flex;
+  gap: 10rem;
+}
+
+.coll {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+.input {
+  width: 120%;
+  border: none;
+  outline: none;
+}
+.sm-txt {
+  font-size: 12px;
+}
+.svg {
+  background-color: #7811d796;
+  width: 30px;
+  height: 30px;
+  position: relative;
+  left: 55px;
+  border-radius: 4px;
+}
+
+.mx-2 {
+  display: flex;
+}
+.last {
+  padding-bottom: 28px;
+}
+.btn-roww {
+  position: absolute;
+  bottom: 26px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30rem;
+}
+.mx3 {
+  display: flex;
+  gap: 10px;
+}
+.btn1 {
+  display: flex;
+  align-items: center;
+  border: 1px solid blue;
+  border-radius: 8px;
+  padding: 9px;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 600px) {
+  .contt {
+    width: 100vw;
+    position: static;
+    box-shadow: none;
+  }
+  .btn-roww {
+    gap: 16px;
+    bottom: 45px;
+    flex-direction: column;
+  }
+  .mx3 {
+    gap: 30px;
+  }
+  .roww {
+    gap: 0;
+    flex-direction: column;
+  }
+  .input-row {
+    width: 82vw;
+  }
+  main {
+    flex-direction: column;
+  }
+  .btn-roww {
+    position: static;
+  }
+}

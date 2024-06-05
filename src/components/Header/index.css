@@ -1,0 +1,39 @@
+.shade1 {
+    height: 40vh;
+    width: 100vw;
+    border-radius: 0 0 44% 78% / 20% 7% 88% 59%;
+   
+    background: linear-gradient(to right, #00f0ff, #b000ff);
+    position: relative;
+    z-index: 1;
+}
+.cnt0{
+    display: flex;
+    justify-content: center;
+    height: fit-content;
+    gap: 14rem;
+    width: 100vw;
+    color: white;
+    padding-top: 14px;
+    align-items: center;
+}
+
+.blur{
+    width: 84px;
+    height: 67px;
+    border-radius: 50%;
+    filter: blur(4px);
+    background: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+}
+.shade2{
+    height: 42vh;
+    width: 100vw;
+    background: linear-gradient(to right, #aa72c7, #6995a6);
+    position: absolute;
+    top: 20px;
+    border-radius: 0 0 31% 19%;
+}
