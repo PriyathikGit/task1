@@ -1,5 +1,5 @@
 .shade1 {
-    height: 40vh;
+    height: 25vh;
     width: 100vw;
     border-radius: 0 0 44% 78% / 20% 7% 88% 59%;
    
@@ -30,7 +30,7 @@
     color: black;
 }
 .shade2{
-    height: 42vh;
+    height: 27vh;
     width: 100vw;
     background: linear-gradient(to right, #aa72c7, #6995a6);
     position: absolute;

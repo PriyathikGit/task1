@@ -1,15 +1,16 @@
 .contt {
-  width: 55%;
-  border-radius: 20px;
-  position: relative;
-  bottom: 90px;
-  position: absolute;
-  z-index: 1;
-  background-color: white;
-  box-shadow: 3px 5px 35px;
-  display: flex;
-  flex-direction: column;
+  width: 61vw;
+    border-radius: 20px;
+    position: relative;
+    bottom: -19%;
+    position: absolute;
+    z-index: 1;
+    background-color: white;
+    box-shadow: 3px 5px 35px;
+    display: flex;
+    flex-direction: column;
 }
+
 .topTxt {
   margin-left: 95px;
 }
@@ -181,7 +182,7 @@ input {
 }
 .btn-roww {
   position: absolute;
-  bottom: 26px;
+  bottom: -30%;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -226,5 +227,20 @@ input {
   }
   .btn-roww {
     position: static;
+  }
+}
+
+@media screen and (min-width:1000px) {
+  .contt {
+    width: 61vw;
+      border-radius: 20px;
+      position: relative;
+      bottom: -19%;
+      position: absolute;
+      z-index: 1;
+      background-color: white;
+      box-shadow: 3px 5px 35px;
+      display: flex;
+      flex-direction: column;
   }
 }
