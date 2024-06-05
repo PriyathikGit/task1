@@ -228,6 +228,10 @@ input {
   .btn-roww {
     position: static;
   }
+  .tooltip{
+    left: 56%;
+    width: auto;
+  }
 }
 
 @media screen and (min-width:1000px) {
