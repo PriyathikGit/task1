@@ -154,9 +154,7 @@ svg{
     color: white;
 }
 @media screen and (max-width:600px) {
-    body{
-        height: 117vh;
-    }
+    
     .cont{
         width: 100vw;
         box-shadow: none;
